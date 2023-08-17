@@ -13,8 +13,7 @@ RUN npm install
 # 复制本地代码到容器中
 COPY . .
 
-# 指定容器运行时的端口号
-EXPOSE 3000
+
 
 # 定义容器启动时运行的命令
 CMD [ "node", "main.js" ]
